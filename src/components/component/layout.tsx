@@ -60,7 +60,7 @@ export function Layout() {
             <h1 className="text-4xl font-bold">Jane Doe</h1>
             <h2 className="text-2xl font-medium">UI/UX Designer</h2>
             <p className="text-gray-400">
-              I'm a passionate UI/UX designer with a keen eye for detail and a love for creating intuitive and visually
+              I&lsquo;m a passionate UI/UX designer with a keen eye for detail and a love for creating intuitive and visually
               stunning digital experiences.
             </p>
           </div>
@@ -210,7 +210,7 @@ export function Layout() {
   )
 }
 
-function InstagramIcon(props) {
+function InstagramIcon(props:any) {
   return (
     <svg
       {...props}
@@ -232,7 +232,7 @@ function InstagramIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props:any) {
   return (
     <svg
       {...props}
@@ -254,7 +254,7 @@ function LinkedinIcon(props) {
 }
 
 
-function PaletteIcon(props) {
+function PaletteIcon(props:any) {
   return (
     <svg
       {...props}
@@ -278,7 +278,7 @@ function PaletteIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props:any) {
   return (
     <svg
       {...props}
