@@ -17,7 +17,8 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
-import { Button } from "@/components/ui/button"
+import React from 'react';
+import { Button } from "@/components/ui/button";
 
 export function yy() {
   return (
@@ -57,10 +58,10 @@ export function yy() {
         <div className="text-gray-400 dark:text-gray-600">11</div>
       </div>
     </div>
-  )
+  );
 }
 
-function ChevronLeftIcon(props) {
+function ChevronLeftIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -76,11 +77,10 @@ function ChevronLeftIcon(props) {
     >
       <path d="m15 18-6-6 6-6" />
     </svg>
-  )
+  );
 }
 
-
-function ChevronRightIcon(props) {
+function ChevronRightIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -96,5 +96,5 @@ function ChevronRightIcon(props) {
     >
       <path d="m9 18 6-6-6-6" />
     </svg>
-  )
+  );
 }
