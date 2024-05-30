@@ -19,7 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import { Button } from "@/components/ui/button"
 
-export function Component() {
+export function Calendar() {
   return (
     <div className="rounded-lg border border-gray-200 bg-white dark:bg-gray-950 dark:border-gray-800 shadow-sm dark:border-gray-800">
       <div className="flex items-center justify-between px-4 py-3">
