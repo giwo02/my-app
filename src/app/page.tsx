@@ -121,89 +121,92 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-32" id="projects">
-      <div className="container px-4 md:px-6">
-        <div className="space-y-12">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Explore a selection of Jane Doe&apos;s most captivating design projects.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <Card>
-              <img
-                alt="Project 1"
-                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <CardContent className="p-4">
-                <h3 className="text-lg font-bold">Project 1</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A sleek and modern website design for a leading tech company.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <img
-                alt="Project 2"
-                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <CardContent className="p-4">
-                <h3 className="text-lg font-bold">Project 2</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A vibrant and engaging mobile app design for a fitness brand.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <img
-                alt="Project 3"
-                className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
-                height="310"
-                src="/placeholder.svg"
-                width="550"
-              />
-              <CardContent className="p-4">
-                <h3 className="text-lg font-bold">Project 3</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  A bold and eye-catching branding design for a luxury fashion label.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
+    <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center items-center" id="projects">
+    <div className="container px-4 md:px-6 flex justify-center items-center">
+  <div className="space-y-12">
+    <div className="flex flex-col items-center justify-center space-y-4 text-center">
+      <div className="space-y-2">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
+        <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          Explore a selection of Jane Doe&apos;s most captivating design projects.
+        </p>
       </div>
-    </section>
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="contact">
-      <div className="container px-4 md:px-6">
-        <div className="grid items-center justify-center gap-4 text-center">
-          <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Have a project in mind? Let&apos;s discuss how I can help bring your vision to life.
-            </p>
-          </div>
-          <div className="mx-auto w-full max-w-sm space-y-2">
-            <form className="flex flex-col space-y-2">
-              <Input className="max-w-lg" placeholder="Name" type="text" />
-              <Input className="max-w-lg" placeholder="Email" type="email" />
-              <Textarea className="max-w-lg" placeholder="Message" />
-              <Button className="w-full" type="submit">
-                Send Message
-              </Button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <Card>
+        <img
+          alt="Project 1"
+          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
+          height="310"
+          src="/placeholder.svg"
+          width="550"
+        />
+        <CardContent className="p-4">
+          <h3 className="text-lg font-bold">Project 1</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            A sleek and modern website design for a leading tech company.
+          </p>
+        </CardContent>
+      </Card>
+      <Card>
+        <img
+          alt="Project 2"
+          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
+          height="310"
+          src="/placeholder.svg"
+          width="550"
+        />
+        <CardContent className="p-4">
+          <h3 className="text-lg font-bold">Project 2</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            A vibrant and engaging mobile app design for a fitness brand.
+          </p>
+        </CardContent>
+      </Card>
+      <Card>
+        <img
+          alt="Project 3"
+          className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
+          height="310"
+          src="/placeholder.svg"
+          width="550"
+        />
+        <CardContent className="p-4">
+          <h3 className="text-lg font-bold">Project 3</h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            A bold and eye-catching branding design for a luxury fashion label.
+          </p>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</div>
+
+</section>
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800 flex justify-center items-center" id="contact">
+<div className="container px-4 md:px-6">
+  <div className="grid items-center justify-center h-full gap-4 text-center">
+    <div className="space-y-3">
+      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
+      <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+        Have a project in mind? Let&apos;s discuss how I can help bring your vision to life.
+      </p>
+    </div>
+    <div className="mx-auto w-full max-w-sm space-y-2">
+      <form className="flex flex-col space-y-2">
+        <Input className="max-w-lg" placeholder="Name" type="text" />
+        <Input className="max-w-lg" placeholder="Email" type="email" />
+        <Textarea className="max-w-lg" placeholder="Message" />
+        <Button className="w-full" type="submit">
+          Send Message
+        </Button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</section>
+
     <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-white">
       <p className="text-xs">© 2024 Jane Doe. All rights reserved.</p>
       <nav className="sm:ml-auto flex gap-4 sm:gap-6">
