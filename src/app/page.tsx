@@ -80,47 +80,48 @@ export default function Home() {
 </div>
 
     </section>
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
-      <div className="container px-4 md:px-6">
-        <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-          <div className="flex flex-col justify-center space-y-4">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Jane Doe</h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Jane Doe is a passionate designer with over 8 years of experience in the industry. She specializes in
-                creating visually stunning and user-friendly digital experiences.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-1">
-                <h3 className="text-lg font-bold">Skills</h3>
-                <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-                  <li>UI/UX Design</li>
-                  <li>Interaction Design</li>
-                  <li>Branding</li>
-                  <li>Motion Design</li>
-                </ul>
-              </div>
-              <div className="space-y-1">
-                <h3 className="text-lg font-bold">Experience</h3>
-                <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-                  <li>8+ years in the industry</li>
-                  <li>Worked with leading tech companies</li>
-                  <li>Awarded for design excellence</li>
-                </ul>
-              </div>
-            </div>
+   <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
+  <div className="container px-4 md:px-6 flex justify-center items-center">
+    <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
+      <div className="flex flex-col justify-center space-y-4">
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Jane Doe</h2>
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Jane Doe is a passionate designer with over 8 years of experience in the industry. She specializes in
+            creating visually stunning and user-friendly digital experiences.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-1">
+            <h3 className="text-lg font-bold">Skills</h3>
+            <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
+              <li>UI/UX Design</li>
+              <li>Interaction Design</li>
+              <li>Branding</li>
+              <li>Motion Design</li>
+            </ul>
           </div>
-          <img
-            alt="About"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-            height="310"
-            src="/placeholder.svg"
-            width="550"
-          />
+          <div className="space-y-1">
+            <h3 className="text-lg font-bold">Experience</h3>
+            <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
+              <li>8+ years in the industry</li>
+              <li>Worked with leading tech companies</li>
+              <li>Awarded for design excellence</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
+      <img
+        alt="About"
+        className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+        height="310"
+        src="/placeholder.svg"
+        width="550"
+      />
+    </div>
+  </div>
+</section>
+
     <section className="w-full py-12 md:py-24 lg:py-32 flex justify-center items-center" id="projects">
     <div className="container px-4 md:px-6 flex justify-center items-center">
   <div className="space-y-12">
