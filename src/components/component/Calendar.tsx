@@ -161,41 +161,51 @@ export function Calendar() {
   )
 }
 
-function ChevronLeftIcon(props) {
+import React from 'react';
+
+function ChevronLeftIcon({ width = 24, height = 24, stroke = 'currentColor', ...props }) {
   return (
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke={stroke}
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     >
       <path d="m15 18-6-6 6-6" />
     </svg>
-  )
+  );
 }
 
-
-function ChevronRightIcon(props) {
+function ChevronRightIcon({ width = 24, height = 24, stroke = 'currentColor', ...props }) {
   return (
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
+      width={width}
+      height={height}
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke={stroke}
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     >
       <path d="m9 18 6-6-6-6" />
     </svg>
-  )
+  );
 }
+
+const App = () => (
+  <div>
+    <ChevronLeftIcon style={{ marginRight: '10px' }} />
+    <ChevronRightIcon />
+  </div>
+);
+
+export default App;
