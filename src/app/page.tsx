@@ -46,11 +46,10 @@ export default function Home() {
       <div className="flex flex-col justify-center space-y-4">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            Crafting Visually Stunning Experiences
+            윤지우(Youn Jiwoo)
           </h1>
           <p className="max-w-[600px] text-gray-300 md:text-xl dark:text-gray-400">
-            Discover the portfolio of Jane Doe, a talented designer who specializes in creating captivating
-            digital experiences.
+          Game Art Designer Portfolio
           </p>
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -69,12 +68,14 @@ export default function Home() {
         </div>
       </div>
       <img
-        alt="Hero"
-        className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-        height="550"
-        src="/placeholder.svg"
-        width="550"
-      />
+  alt="Hero"
+  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+  height="550"
+  src="tkwls.jpg"
+  width="550"
+/>
+
+
     </div>
   </div>
 </div>
@@ -85,27 +86,27 @@ export default function Home() {
     <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px] text-center">
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Jane Doe</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Youn Jiwoo</h2>
           <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Jane Doe is a passionate designer with over 8 years of experience in the industry. She specializes in
-            creating visually stunning and user-friendly digital experiences.
+            -지우의 포트폴리오 및 활용 가능 툴 및 활동
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">Skills</h3>
+            <h3 className="text-lg font-bold">Tools</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-              <li>UI/UX Design</li>
-              <li>Interaction Design</li>
-              <li>Branding</li>
-              <li>Motion Design</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>3D max</li>
+              <li>Maya</li>
+              <li>zbrush</li>
             </ul>
           </div>
           <div className="space-y-1">
             <h3 className="text-lg font-bold">Experience</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-              <li>8+ years in the industry</li>
-              <li>Worked with leading tech companies</li>
+              <li>3+ years in the Sogang Game Education Center</li>
+              <li>Create multiple game projects</li>
               <li>Awarded for design excellence</li>
             </ul>
           </div>
@@ -115,7 +116,7 @@ export default function Home() {
         alt="About"
         className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
         height="310"
-        src="/placeholder.svg"
+        src="/media_19184c5442857c71a906c236d4d3a8063c78fb2ec.png"
         width="550"
       />
     </div>
@@ -128,40 +129,39 @@ export default function Home() {
   <div className="space-y-12">
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Featured Projects</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Portfolio Work</h2>
         <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          Explore a selection of Jane Doe&apos;s most captivating design projects.
-        </p>
+          UI, background, and Illustration can be done in a variety of ways        </p>
       </div>
     </div>
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <Card>
         <img
-          alt="Project 1"
+          alt="UI"
           className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
           height="310"
-          src="/placeholder.svg"
+          src="/모작.png"
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Project 1</h3>
+          <h3 className="text-lg font-bold">UI</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            A sleek and modern website design for a leading tech company.
+           It's a copy of the game UI
           </p>
         </CardContent>
       </Card>
       <Card>
         <img
-          alt="Project 2"
+          alt="Illustration"
           className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
           height="310"
-          src="/placeholder.svg"
+          src="/08.jpg"
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Project 2</h3>
+          <h3 className="text-lg font-bold">Illustration</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            A vibrant and engaging mobile app design for a fitness brand.
+           I made a game illustration with various ideas.
           </p>
         </CardContent>
       </Card>
@@ -170,13 +170,13 @@ export default function Home() {
           alt="Project 3"
           className="mx-auto aspect-video overflow-hidden rounded-t-xl object-cover object-center sm:w-full"
           height="310"
-          src="/placeholder.svg"
+          src="/16.jpg"
           width="550"
         />
         <CardContent className="p-4">
-          <h3 className="text-lg font-bold">Project 3</h3>
+          <h3 className="text-lg font-bold">background</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            A bold and eye-catching branding design for a luxury fashion label.
+          It's possible to draw in a variety of styles
           </p>
         </CardContent>
       </Card>
