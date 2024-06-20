@@ -60,7 +60,7 @@ export default function Home() {
             View Projects
           </Link>
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300 dark:border-gray-800"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
             href="#"
           >
             Contact Me
@@ -86,14 +86,14 @@ export default function Home() {
     <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px] text-center">
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto">
         <div className="space-y-2">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Youn Jiwoo</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl"> 사용 가능 툴 및 활동</h2>
           <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            -지우의 포트폴리오 및 활용 가능 툴 및 활동
+           
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">Tools</h3>
+            <h3 className="text-lg font-bold">사용 가능 툴</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
               <li>Photoshop</li>
               <li>Illustrator</li>
@@ -103,11 +103,11 @@ export default function Home() {
             </ul>
           </div>
           <div className="space-y-1">
-            <h3 className="text-lg font-bold">Experience</h3>
+            <h3 className="text-lg font-bold">활동</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-              <li>3+ years in the Sogang Game Education Center</li>
-              <li>Create multiple game projects</li>
-              <li>Awarded for design excellence</li>
+              <li>3년간 서강대 게임교육원 소료 중</li>
+              <li>다양한 게임 프로젝트 참여</li>
+              <li>그래픽디자인 관련 대회에서 수상경력 보유</li>
             </ul>
           </div>
         </div>
@@ -129,9 +129,9 @@ export default function Home() {
   <div className="space-y-12">
     <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Portfolio Work</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">포트폴리오 작업물</h2>
         <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-          UI, background, and Illustration can be done in a variety of ways        </p>
+          UI, 배경, 원화 등 다양한 작업이 가능합니다.</p>
       </div>
     </div>
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -146,7 +146,7 @@ export default function Home() {
         <CardContent className="p-4">
           <h3 className="text-lg font-bold">UI</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-           It&s a copy of the game UI
+           모 게임의 간단한 UI 모작
           </p>
         </CardContent>
       </Card>
@@ -161,7 +161,7 @@ export default function Home() {
         <CardContent className="p-4">
           <h3 className="text-lg font-bold">Illustration</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-           I made a game illustration with various ideas.
+           게임 원화, 스킬, 일러스트 등의 최종 작업물
           </p>
         </CardContent>
       </Card>
@@ -176,7 +176,7 @@ export default function Home() {
         <CardContent className="p-4">
           <h3 className="text-lg font-bold">background</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-          It&s possible to draw in a variety of styles
+          다양한 그림체의 배경 작업물
           </p>
         </CardContent>
       </Card>
@@ -189,9 +189,9 @@ export default function Home() {
 <div className="container px-4 md:px-6">
   <div className="grid items-center justify-center h-full gap-4 text-center">
     <div className="space-y-3">
-      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get in Touch</h2>
+      <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">연락처를 남겨주세요</h2>
       <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-        Have a project in mind? Let&apos;s discuss how I can help bring your vision to life.
+        저의 작업물이 마음에 드신다면 아래에 연락처를 기제해 주세요.
       </p>
     </div>
     <div className="mx-auto w-full max-w-sm space-y-2">
@@ -209,17 +209,7 @@ export default function Home() {
 
 </section>
 
-    <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-gray-900 text-white">
-      <p className="text-xs">© 2024 Jane Doe. All rights reserved.</p>
-      <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-        <Link className="text-xs hover:underline underline-offset-4" href="#">
-          Privacy
-        </Link>
-        <Link className="text-xs hover:underline underline-offset-4" href="#">
-          Terms
-        </Link>
-      </nav>
-    </footer>
+
   </div>
   );
 
