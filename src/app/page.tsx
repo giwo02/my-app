@@ -33,7 +33,7 @@ export default function Home() {
             윤지우(Youn Jiwoo)
           </h1>
           <p className="max-w-[600px] text-gray-300 md:text-xl dark:text-gray-400">
-          Game Art Designer Portfolio
+          게임 그래픽 포트폴리오
           </p>
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="space-y-1">
             <h3 className="text-lg font-bold">활동</h3>
             <ul className="space-y-1 text-sm text-gray-500 dark:text-gray-400">
-              <li>3년간 서강대 게임교육원 소료 중</li>
+              <li>3년간 서강대 게임교육원 수료 중</li>
               <li>다양한 게임 프로젝트 참여</li>
               <li>그래픽디자인 관련 대회에서 수상경력 보유</li>
             </ul>
