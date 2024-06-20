@@ -22,23 +22,7 @@ To read more about using these font, please visit the Next.js documentation:
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-    <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900 text-white">
-      <Link className="flex items-center justify-center" href="#">
-        <PaletteIcon className="h-6 w-6" />
-        <span className="sr-only">Jane Doe&apos;s Portfolio</span>
-      </Link>
-      <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          About
-        </Link>
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          Projects
-        </Link>
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-          Contact
-        </Link>
-      </nav>
-    </header>
+   
     <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-900 text-white">
     <div className="flex justify-center items-center min-h-screen">
   <div className="container px-4 md:px-6">
@@ -55,13 +39,13 @@ export default function Home() {
         <div className="flex flex-col gap-2 min-[400px]:flex-row">
           <Link
             className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
-            href="#"
+            href="#projects"
           >
             View Projects
           </Link>
           <Link
             className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
-            href="#"
+            href="#contact"
           >
             Contact Me
           </Link>
