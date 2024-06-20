@@ -146,7 +146,7 @@ export default function Home() {
         <CardContent className="p-4">
           <h3 className="text-lg font-bold">UI</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-           It's a copy of the game UI
+           It&s a copy of the game UI
           </p>
         </CardContent>
       </Card>
@@ -176,7 +176,7 @@ export default function Home() {
         <CardContent className="p-4">
           <h3 className="text-lg font-bold">background</h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-          It's possible to draw in a variety of styles
+          It&s possible to draw in a variety of styles
           </p>
         </CardContent>
       </Card>
