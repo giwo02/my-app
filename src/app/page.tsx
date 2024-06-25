@@ -67,7 +67,7 @@ export default function Home() {
               className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
               href="#contact"
             >
-              연락처
+              연락하기
             </Link>
           </div>
         </div>
@@ -199,9 +199,9 @@ export default function Home() {
     </div>
     <div className="mx-auto w-full max-w-sm space-y-2">
       <form className="flex flex-col space-y-2">
-        <Input className="max-w-lg" placeholder="Name" type="text" />
-        <Input className="max-w-lg" placeholder="Email" type="email" />
-        <Textarea className="max-w-lg" placeholder="Message" />
+        <Input className="max-w-lg" placeholder="이름" type="text" />
+        <Input className="max-w-lg" placeholder="메일" type="email" />
+        <Textarea className="max-w-lg" placeholder="메세지" />
         <Button className="w-full" type="submit">
           연락 보내기
         </Button>
