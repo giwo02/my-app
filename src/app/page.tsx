@@ -22,49 +22,68 @@ To read more about using these font, please visit the Next.js documentation:
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-   
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-900 text-white">
-    <div className="flex justify-center items-center min-h-screen">
-  <div className="container px-4 md:px-6">
-    <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-      <div className="flex flex-col justify-center space-y-4">
-        <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-            윤지우(Youn Jiwoo)
-          </h1>
-          <p className="max-w-[600px] text-gray-300 md:text-xl dark:text-gray-400">
-          게임 그래픽 포트폴리오
-          </p>
+      
+      <header className="px-4 lg:px-6 h-14 flex items-center bg-[#070B19] text-white">
+        <a className="flex items-center justify-center" href="#">
+          <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+           fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+            <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+            <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+            <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 
+            0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 
+            0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"></path></svg>
+            <span className="sr-only">윤지우의 포트폴리오</span>
+            </a>
+            <nav className="ml-auto flex gap-4 sm:gap-6">
+              <a className="text-sm font-medium hover:underline underline-offset-4" href="#home">홈</a>
+              
+              <a className="text-sm font-medium hover:underline underline-offset-4" href="#about">자기소개</a>
+              <a className="text-sm font-medium hover:underline underline-offset-4" href="#projects">작업물</a>
+              <a className="text-sm font-medium hover:underline underline-offset-4" href="#contact">연락</a></nav>
+              </header>
+              <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-900 text-white">
+  <div className="flex justify-center items-center min-h-[50vh]">
+    <div className="container px-4 md:px-6">
+      <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+        <div className="flex flex-col justify-center items-center space-y-4">
+          <div className="space-y-2 text-center">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+              윤지우(Youn Jiwoo)
+            </h1>
+            <p className="max-w-[600px] text-gray-300 md:text-xl dark:text-gray-400">
+              게임 그래픽 포트폴리오
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 min-[400px]:flex-row">
+            <Link
+              className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
+              href="#projects"
+            >
+              프로젝트 보기
+            </Link>
+            <Link
+              className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
+              href="#contact"
+            >
+              연락처
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row">
-          <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
-            href="#projects"
-          >
-            View Projects
-          </Link>
-          <Link
-            className="inline-flex h-10 items-center justify-center rounded-md bg-[#6366F1] px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#4F46E5] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#4F46E5] disabled:pointer-events-none disabled:opacity-50"
-            href="#contact"
-          >
-            Contact Me
-          </Link>
-        </div>
+        <img
+          alt="Hero"
+          className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+          height="550"
+          src="tkwls.jpg"
+          width="550"
+        />
       </div>
-      <img
-  alt="Hero"
-  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
-  height="550"
-  src="tkwls.jpg"
-  width="550"
-/>
-
-
     </div>
   </div>
-</div>
+</section>
 
-    </section>
+
     <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800" id="about">
   <div className="container px-4 md:px-6 flex justify-center items-center mx-auto">
     <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px] text-center">
@@ -184,7 +203,7 @@ export default function Home() {
         <Input className="max-w-lg" placeholder="Email" type="email" />
         <Textarea className="max-w-lg" placeholder="Message" />
         <Button className="w-full" type="submit">
-          Send Message
+          연락 보내기
         </Button>
       </form>
     </div>
